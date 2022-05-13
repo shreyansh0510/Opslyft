@@ -1,0 +1,9 @@
+.graphDataClass {
+  width: 100%;
+}
+
+.graphheading {
+  font-size: 24px;
+  color: var(--heading);
+  margin: 30px 0;
+}

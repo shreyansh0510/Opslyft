@@ -1,0 +1,83 @@
+.nav {
+  width: 100%;
+  background-color: var(--nav-color);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.navContent {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--nav-color);
+}
+
+.title {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 600;
+  background-color: var(--nav-color);
+  color: var(--nav-title);
+}
+
+.greet {
+  font-size: 16px;
+  background-color: var(--nav-color);
+  color: var(--nav-title);
+}
+
+.loginSignup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.login,
+.signup {
+  display: flex;
+  align-items: center;
+  color: var(--nav-title);
+  outline: none;
+}
+
+.login:hover,
+.signup:hover {
+  cursor: pointer;
+}
+
+.login span,
+.signup span {
+  margin-left: 5px;
+}
+
+.signup {
+  margin-left: 20px;
+}
+
+.logout {
+  font-size: 16px;
+  color: var(--nav-title);
+  outline: none;
+  display: flex;
+  align-items: center;
+}
+
+.logout span {
+  margin-left: 5px;
+}
+
+.logout:hover {
+  cursor: pointer;
+}
+
+.username {
+  text-transform: capitalize;
+}
